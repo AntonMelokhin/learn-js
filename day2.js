@@ -1,3 +1,2 @@
-let string1 = "Good boy!";
-
-console.log(string1);
+let str = "Good boy!";
+console.log(str);
