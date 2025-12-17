@@ -12,6 +12,7 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/day1.js",
+            "cwd": "${workspaceFolder}",
             "runtimeExecutable": "/home/anton/.nvm/versions/node/v24.12.0/bin/node"
         }
     ]
