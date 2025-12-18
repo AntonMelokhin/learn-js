@@ -94,3 +94,79 @@ console.log(together);
 
 //repeat 2 times challenge
 console.log(challenge.repeat(2));
+
+//LEVEL-2
+
+//
+console.log("The quote \'There is no exercise better for\nthe heart than reaching down and lifting people up.\'\nby John Holmes teaches us to help one another.");
+
+//
+console.log("Love is not patronizing and charity isn\'t about pity,\nit is about love. Charity and love are the same -- with charity you give love,\nso don\'t just give money but reach out your hand instead.");
+
+//
+console.log(typeof '10' == typeof 10);
+let strTen = "10";
+const ten = +strTen;
+console.log(typeof ten == typeof 10);
+
+//
+console.log(parseFloat('9.8') == 10);
+const a = Math.ceil(parseFloat('9.8'));
+console.log(a == 10);
+
+//
+const word1 = 'python';
+const word2 = 'jargon';
+console.log(word1.includes("on") && word2.includes("on"));
+
+//
+const string1 = 'I hope this course is not full of jargon.';
+console.log(string1.includes("jargon"));
+
+//
+const randomNum = Math.floor(Math.random() * 101);
+console.log(randomNum);
+
+//
+const randomNum2 = Math.floor(Math.random() * 51) + 50;
+console.log(randomNum2);
+
+//
+let randomNum3 = Math.ceil(Math.random() * 255);
+console.log(randomNum3);
+
+//
+let stringJS = "JavaScript";
+const stringLength = stringJS.length;
+const randomLater = Math.floor(Math.random() * (stringLength));
+console.log(stringJS[randomLater]);
+
+//
+console.log('1\t1\t1\t1\t1\n2\t1\t2\t4\t8\n3\t1\t3\t9\t27\n4\t1\t4\t16\t64\n5\t1\t5\t25\t125');
+
+//
+let phrase = "You cannot end a sentence with because because because is a conjunction";
+const firstBecauseWord = phrase.indexOf("because");
+const slicedPhrase = phrase.substr(firstBecauseWord, "because because because".length);
+console.log(slicedPhrase);
+
+
+//LEVEL-3
+
+//
+const phrase2 = 'Love is the best thing in this world. Some found their love and some are still looking for their love.';
+const searchLove = phrase2.match(/love/gi);
+console.log(searchLove.length);
+
+//
+const searchBecause = phrase.match(/because/gi);
+console.log(searchBecause.length);
+
+//
+const sentence1 = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching'
+
+//
+const text = 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.';
+const searchNum = text.match(/\d+/g);
+const sum = (+searchNum[0] + +searchNum[2]) * 12 + +searchNum[1];
+console.log(sum);
