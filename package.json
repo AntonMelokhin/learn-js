@@ -1,0 +1,22 @@
+{
+  "name": "learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./day3/level2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonMelokhin/learn-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AntonMelokhin/learn-js/issues"
+  },
+  "homepage": "https://github.com/AntonMelokhin/learn-js#readme"
+}
